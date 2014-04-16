@@ -1,6 +1,6 @@
 {
   "name": "gunk",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Dependency injection framework for node.js",
   "main": "lib/gunk.js",
   "scripts": {
@@ -11,13 +11,13 @@
     "url": "git@github.com:dohse/gunk.git"
   },
   "dependencies": {
-    "async": "^0.7.0",
-    "underscore": "^1.6.0"
+    "async": "~0.7.0",
+    "underscore": "~1.6.0"
   },
   "devDependencies": {
-    "mocha": "^1.18.2",
-    "jscs": "^1.3.0",
-    "jshint": "^2.5.0"
+    "mocha": "~1.18.2",
+    "jscs": "~1.3.0",
+    "jshint": "~2.5.0"
   },
   "keywords": [
     "Dependency injection",
