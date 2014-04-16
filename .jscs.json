@@ -1,0 +1,16 @@
+{
+  "requireSpaceAfterKeywords": ["if", "else", "for", "while", "do", "switch", "return", "try", "catch"],
+  "requireSpacesInFunctionExpression": {
+    "beforeOpeningCurlyBrace": true
+  },
+  "disallowSpacesInFunctionExpression": {
+    "beforeOpeningRoundBrace": true
+  },
+  "disallowMultipleVarDecl": true,
+  "requireBlocksOnNewline": true,
+  "disallowEmptyBlocks": true,
+  "disallowSpacesInsideObjectBrackets": true,
+  "disallowSpacesInsideArrayBrackets": true,
+  "disallowSpaceAfterObjectKeys": true,
+  "requireCommaBeforeLineBreak": true
+}

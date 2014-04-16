@@ -1,0 +1,32 @@
+{
+  "name": "gunk",
+  "version": "1.0.0",
+  "description": "Dependency injection framework for node.js",
+  "main": "lib/gunk.js",
+  "scripts": {
+    "test": "make test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:dohse/gunk.git"
+  },
+  "dependencies": {
+    "async": "^0.7.0",
+    "underscore": "^1.6.0"
+  },
+  "devDependencies": {
+    "mocha": "^1.18.2",
+    "jscs": "^1.3.0",
+    "jshint": "^2.5.0"
+  },
+  "keywords": [
+    "Dependency injection",
+    "Inversion of control"
+  ],
+  "author": "Jonas Dohse",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dohse/gunk/issues"
+  },
+  "homepage": "https://github.com/dohse/gunk"
+}
