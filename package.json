@@ -1,6 +1,6 @@
 {
   "name": "gunk",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Dependency injection framework for node.js",
   "main": "lib/gunk.js",
   "scripts": {
