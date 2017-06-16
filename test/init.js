@@ -1,5 +1,7 @@
 // Copyright 2014 mbr targeting GmbH. All Rights Reserved.
 
+var assert = require('assert');
+
 var gunk = require('../lib/gunk');
 
 describe('gunk', function() {
@@ -12,7 +14,7 @@ describe('gunk', function() {
         assert.strictEqual(a, 'a');
         cb(null, 'b');
       }],
-    }, ['a'], cb);
+    }, ['b'], cb);
   });
 
   it('should work with arrays and objects', function(cb) {
