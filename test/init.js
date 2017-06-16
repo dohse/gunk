@@ -14,4 +14,16 @@ describe('gunk', function() {
       }],
     }, ['a'], cb);
   });
+
+  it('should work with arrays and objects', function(cb) {
+    gunk({
+      resource: [{
+        key: gunk.Literal('value'),
+      }, function(object, cb) {
+        assert.strictEqual(object.key, 'value');
+
+        cb(null, null);
+      }],
+    }, cb);
+  });
 });
