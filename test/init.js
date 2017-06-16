@@ -28,4 +28,17 @@ describe('gunk', function() {
       }],
     }, cb);
   });
+
+  it('should support dependencies of resources without factory', function(cb) {
+    gunk({
+      dependency: gunk.Literal('value'),
+      resource: 'dependency',
+    }, ['resource'], function(err, resources) {
+      if (err) return cb(err);
+
+      assert.strictEqual(resources.resource, 'value');
+
+      cb(null);
+    });
+  });
 });
